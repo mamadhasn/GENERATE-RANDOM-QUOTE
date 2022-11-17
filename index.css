@@ -1,0 +1,52 @@
+ *{
+        font-size: xx-large;
+ }
+.conteaner{
+        width: 50%;
+        height: 500px;
+        display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  gap: 20px;
+  grid-auto-rows: 100px;
+  margin-right: auto;
+  margin-left: auto;
+      }  
+      #shownumer{
+        background-color: rgb(3, 225, 66);
+        grid-column: 1 / -1;
+        grid-row: 1;
+        font-size: 60px;
+        text-align: center;
+      }
+      span{
+        font-size: 50px;
+      }
+
+      button#equal{
+        background-color: rgb(247, 0, 0);
+           grid-column: 1 / -1;
+    grid-row: auto;
+      }
+      button:not(#equal){
+        border-radius: 50%;
+        background-color: black;
+        color: aliceblue;
+      }
+      #sunelespans{
+        text-align: center;
+      }
+      #plus{
+        background-color: #af1a1aa1!important
+      }
+      #mines{
+        background-color: rgb(18 130 219) !important;
+      }
+     #multiple{
+        background-color: rgb(63, 35, 173) !important;
+     }
+     #division{
+        background-color: rgb(156, 93, 157) !important;
+     }
+     #clean{
+        background-color: rgb(199, 122, 22) !important;
+     }
